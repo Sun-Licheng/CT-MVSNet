@@ -1,5 +1,5 @@
 <div align="center">
-    <h1> CT-MVSNet：CURVATURE-GUIDED FOR MULTI-VIEW STEREO with Transformers</h1>
+    <h1> CT-MVSNet：Curvature-Guided For Multi-View Stereo with Transformers</h1>
  </div> 
  
 <div align="center">
@@ -19,7 +19,7 @@ UniMVSNet is a learning-based multi-view stereo model, which has a unified depth
 To excavate the potential of our novel representation, we designed a Unified Focal Loss to combat the challenge of sample imbalance more reasonably and uniformly.
 Details are described in our paper:
 
-> CT-MVSNet：CURVATURE-GUIDED FOR MULTI-VIEW STEREO with Transformers
+> CT-MVSNet：Curvature-Guided For Multi-View Stereo with Transformers
 >
 > Licheng Sun, Liang Wang
 >
