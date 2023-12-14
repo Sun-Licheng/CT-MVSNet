@@ -96,7 +96,7 @@ If nothing goes wrong, you will get an executable named fusable. And most of the
 bash ./scripts/dtu_test.sh
 ```
 
-Note that we use the unimvsnet_dtu checkpoint when testing on DTU.
+Note that we use the CT-MVSNet_dtu checkpoint when testing on DTU.
 
 **Point testing**. You need to move the point clouds generated under each scene into a 
 folder `dtu_points`. Meanwhile, you need to rename the point cloud in 
