@@ -16,7 +16,7 @@
 ## [Paper Page]() | [Code Page](https://github.com/Sun-Licheng/CT-MVSNet)
 
 Recently, the proliferation of Dynamic Scale Convolution modules has simplified the feature correspondence between multiple views. Concurrently, Transformers have been proven effective in enhancing the reconstruction of multi-view stereo (MVS) by facilitating feature interactions across views. In this paper, we present CM-MVSNet based on an in-depth study of feature extraction and matching in MVS. By exploring inter-view relationships and measuring the receptive field size and feature information on the image surface through the curvature of the law, our method adapts to various candidate scales of curvature. Consequently, this module outperforms existing networks in adaptively extracting more detailed features for precise cost computation. Furthermore, to better identify inter-view similarity relationships, we introduce a Transformer-based feature matching module. Leveraging Transformer principles, we align features from multiple source views with those from a reference view, enhancing the accuracy of feature matching. Additionally, guided by the proposed curvature-guided dynamic scale convolution and Transformer-based feature matching, we introduce a feature-matching similarity measurement module that tightly integrates curvature and inter-view similarity measurement, leading to improved reconstruction accuracy. Our approach demonstrates advanced performance on the DTU dataset and the Tanks and Temples benchmark. 
-Details are described in our paper:
+Details are described in our paper and [our result](https://www.tanksandtemples.org/details/7925/):
 
 > CT-MVSNet：Curvature-Guided For Multi-View Stereo with Transformers
 >
